@@ -1,0 +1,31 @@
+/* construa um algoritmo que leia 10 numeros inteiros e positivos e:
+1)encontre o maior valor 
+2)encontre o menor valor 
+3)calcule a media dos numeros lidos */
+
+maior = -9999
+menor = 9999
+soma = 0
+
+#variaveis
+
+for n in range(1,11):
+valor = int(input("Digite um valor: "))
+      if valor > 0:
+      if valor > maior 
+          maior = valor 
+      if valor < menor
+          menor = valor 
+ soma = soma + valor
+ 
+ else
+   valor = int (input("Digite um valor: "))
+   media = soma / 10
+   
+   #processamento
+   
+   
+   print("O maior número é: {0}".format(maior))
+   print("O menor número é: {0}".format(menor))
+   print("A média dos números é: {0}".format(media))
+     
