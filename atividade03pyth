@@ -1,0 +1,28 @@
+/* Desenvolva um algoritmo que:
+a) Leia 4 números;
+b) Calcule o quadrado de cada um; 
+c) Se o valor resultante do quadrado do terceiro >= 1000, imprima-o e finalize;
+d) Caso contrário, imprima os valores lidos e seus respectivos quadrados. */
+
+
+n1 = int(input("Informe o primeiro número: "))
+n2 = int(input("Informe o segundo número: "))
+n3 = int(input("Informe o terceiro número: "))
+n4 = int(input("Informe o quarto número: "))
+#questionário 
+
+quad1 = n1 * n1
+quad2 = n2 * n2 
+quad3 = n3 * n3
+quad4 = n4 * n4
+#calculo
+
+if quad3 >=1000:
+    print(q3)
+else: 
+    print("Numero 1: {0}, Quadrado: {1}".format(n1, quad1))
+    print("Numero 2: {0}, Quadrado: {1}".format(n2, quad2))
+    print("Numero 3: {0}, Quadrado: {1}".format(n3, quad3))
+    print("Numero 4: {0}, Quadrado: {1}".format(n4, quad4))
+#finalização
+    
