@@ -1,0 +1,10 @@
+/* Faça um algoritmo que converta metros para centimetros */ 
+
+metro = int(input("Informe o valor em metros: "))
+#entrada
+
+centimetros = (metros * 100)
+#calculo
+
+print("{0} metros em centimetros é: {1}".format (metro, centimetros))
+#finalização 
