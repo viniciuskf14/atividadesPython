@@ -1,0 +1,16 @@
+/* ler um número e verificar se ele é par ou impar. Quando for par armazenar esse valor em 'p' e quando for impar armazela-lo em 'i'. Exibir 'i' e 'p' no final do processamento */
+
+p=0
+i=0
+#variaveis
+
+numero = int(input("Informe um número: "))
+   if numero %2 == 0  
+       p = numero 
+   else
+       i = numero 
+#processo
+
+print(p)
+print(i)
+#exibiçãoFinal
